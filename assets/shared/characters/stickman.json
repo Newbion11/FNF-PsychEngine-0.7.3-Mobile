@@ -1,0 +1,87 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [0, 0],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [36, -144],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "downmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [237, 16],
+			"anim": "singLEFTmiss",
+			"fps": 17,
+			"name": "leftmiss",
+			"indices": [0, 1, 2, 3, 4, 5, 6]
+		},
+		{
+			"loop": false,
+			"offsets": [60, 80],
+			"anim": "singUPmiss",
+			"fps": 17,
+			"name": "upmiss",
+			"indices": [0, 1, 2, 3, 4, 5, 6]
+		},
+		{
+			"loop": false,
+			"offsets": [-133, -2],
+			"anim": "singRIGHTmiss",
+			"fps": 17,
+			"name": "rightmiss",
+			"indices": [0, 1, 2, 3, 4, 5, 6]
+		},
+		{
+			"offsets": [228, -13],
+			"indices": [0, 1, 2, 3, 4, 5, 6],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left"
+		},
+		{
+			"offsets": [-116, -79],
+			"indices": [0, 1, 2, 3, 4, 5, 6],
+			"fps": 17,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "right"
+		},
+		{
+			"offsets": [27, 92],
+			"indices": [0, 1, 2, 3, 4, 5, 6],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
+		},
+		{
+			"offsets": [32, -174],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "hawk tuAH"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Stickman",
+	"position": [-720, 200],
+	"healthicon": "stick",
+	"flip_x": true,
+	"healthbar_colors": [0, 80, 255],
+	"camera_position": [-90, 150],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": true
+}
