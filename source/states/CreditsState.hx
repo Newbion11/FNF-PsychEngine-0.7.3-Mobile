@@ -39,6 +39,10 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['Friday Night Gambling'],
+			['Mozeeto',			'drizzy',				'Song, sprites, charting, art',						'https://www.youtube.com/@itsmozeeto',	'0xFF007FFF'],
+			['radxdflipnote',			'radxd',			'Character, Meme',		'https://www.youtube.com/@raxdflipnote',		'3498DB'],
+			[''],
 			['Mobile Porting Team'],
 			['mcagabe19',			'lily',				'Head Porter of Psych Engine Mobile',						'https://www.youtube.com/@mcagabe19',	'FFE7C0'],
 			['Karim Akra',			'karim',			'Assistant Porter/Helper #1 of Psych Engine Mobile',		'https://youtube.com/@Karim0690',		'FFB4F0'],
