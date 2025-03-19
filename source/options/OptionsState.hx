@@ -16,7 +16,6 @@ class OptionsState extends MusicBeatState
 	private static var curSelected:Int = 0;
 	public static var menuBG:FlxSprite;
 	public static var onPlayState:Bool = false;
-	var tipText:FlxText;
 	#if (target.threaded) var mutex:Mutex = new Mutex(); #end
 
 	function openSelectedSubstate(label:String) {
@@ -58,7 +57,7 @@ class OptionsState extends MusicBeatState
 
 		if (controls.mobileC)
 		{
-			tipText = new FlxText(150, FlxG.height - 24, 0, 'Press ' + #if mobile 'C' #else 'CTRL or C' #end + ' to Go Mobile Controls Menu', 16);
+			var tipText:FlxText = new FlxText(150, FlxG.height - 24, 0, 'Press ' + (FlxG.onMobile ? 'C' : 'CTRL or C') + ' to Go Mobile Controls Menu', 16);
 			tipText.setFormat("VCR OSD Mono", 17, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 			tipText.borderSize = 1.25;
 			tipText.scrollFactor.set();
@@ -86,20 +85,6 @@ class OptionsState extends MusicBeatState
 		ClientPrefs.saveSettings();
 
 		addTouchPad("UP_DOWN", "A_B_C");
-
-		#if (target.threaded)
-		Thread.create(()->{
-			mutex.acquire();
-
-			for (i in VisualsUISubState.pauseMusics)
-			{
-				if (i.toLowerCase() != "none")
-					Paths.music(Paths.formatToSongPath(i));
-			}
-
-			mutex.release();
-		});
-		#end
 
 		super.create();
 	}
