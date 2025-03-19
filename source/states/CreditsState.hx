@@ -39,6 +39,13 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['AKAGE'],
+			['SMILY',			'smily',				'AKAGE Original Composer',						'https://www.youtube.com/@boi_smily',	'ffbc5a'],
+			['iHasa',			'ihasa',			'Teto & BF sprite, Icon',		'https://x.com/iHasan_0',		'dbf4f9'],
+			['netuki',			'netuki',			'Miku sprite, Icon, Main code',		'https://x.com/netuki1033',		'f98329'],
+			['skitty',			'skit',			'Chart, Code',		'https://x.com/skitnyama',		'8cd9f0'],
+			['Oren',			'oren',			'Code Helper',		'https://x.com/Oren_too',		'FFA500'],
+			[''],
 			['Mobile Porting Team'],
 			['mcagabe19',			'lily',				'Head Porter of Psych Engine Mobile',						'https://www.youtube.com/@mcagabe19',	'FFE7C0'],
 			['Karim Akra',			'karim',			'Assistant Porter/Helper #1 of Psych Engine Mobile',		'https://youtube.com/@Karim0690',		'FFB4F0'],
