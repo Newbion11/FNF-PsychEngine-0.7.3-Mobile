@@ -5,12 +5,14 @@
       "type": "git",
       "dir": null,
       "ref": "main",
-      "url": "https://github.com/mcagabe19-stuff/lime-8.2.1"
+      "url": "https://github.com/MobilePorting/lime"
     },
     {
       "name": "openfl",
-      "type": "haxelib",
-      "version": "9.3.2"
+      "type": "git",
+      "dir": null,
+      "ref": "9.3.2",
+      "url": "https://github.com/MobilePorting/openfl"
     },
     {
       "name": "flixel",
@@ -39,21 +41,21 @@
       "type": "git",
       "dir": null,
       "ref": "master",
-      "url": "https://github.com/mcagabe19-stuff/hxcpp"
+      "url": "https://github.com/MobilePorting/hxcpp"
     },
     {
       "name": "hxCodec",
       "type": "git",
       "dir": null,
-      "ref": "cafc58e9046505ff93fa659339808b53faa5d6f3",
-      "url": "https://github.com/polybiusproxy/hxCodec"
+      "ref": "main",
+      "url": "https://github.com/MobilePorting/hxCodec"
     },
     {
       "name": "SScript",
       "type": "git",
       "dir": null,
       "ref": "main",
-      "url": "https://github.com/mcagabe19-stuff/SScript-7.7.0"
+      "url": "https://github.com/MobilePorting/SScript-7.7.0"
     },
     {
       "name": "tjson",
@@ -65,14 +67,14 @@
       "type": "git",
       "dir": null,
       "ref": "main",
-      "url": "https://github.com/MAJigsaw77/hxdiscord_rpc"
+      "url": "https://github.com/MobilePorting/hxdiscord_rpc"
     },
     {
       "name": "linc_luajit",
       "type": "git",
       "dir": null,
       "ref": "master",
-      "url": "https://github.com/MobilePorting/linc_luajit-0.7plus"
+      "url": "https://github.com/MobilePorting/linc_luajit"
     },
     {
       "name": "flxanimate",
@@ -80,13 +82,6 @@
       "dir": null,
       "ref": "dev",
       "url": "https://github.com/ShadowMario/flxanimate.git"
-    },
-    {
-      "name": "extension-androidtools",
-      "type": "git",
-      "dir": null,
-      "ref": "main",
-      "url": "https://github.com/MAJigsaw77/extension-androidtools"
     }
   ]
 }
