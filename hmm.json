@@ -17,7 +17,7 @@
       "type": "git",
       "dir": null,
       "ref": "5.5.0",
-      "url": "https://github.com/RenTheSylvee/flixel"
+      "url": "https://github.com/HaxeFlixel/flixel"
     },
     {
       "name": "flixel-addons",
